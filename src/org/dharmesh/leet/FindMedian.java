@@ -41,8 +41,8 @@ public class FindMedian {
     
 	public static void main(String[] args) {
 		FindMedian calculator = new FindMedian();
-		int nums1[] = { 0,1,2};
-		int nums2[] = { 3,4};
+		int nums1[] = { 0,2,4};
+		int nums2[] = { 1,3,5,6,7};
 		long st = System.nanoTime();
 		double median = calculator.findMedianSortedArrays(nums1, nums2);
 		long et = System.nanoTime();
