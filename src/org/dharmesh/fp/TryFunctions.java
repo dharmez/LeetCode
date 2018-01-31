@@ -13,7 +13,7 @@ package org.dharmesh.fp;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
-public class FirstFunctions {
+public class TryFunctions {
 	
 	public static Integer compute(Function<Integer, Integer> function, Integer value) {
 	    return function.apply(value);
