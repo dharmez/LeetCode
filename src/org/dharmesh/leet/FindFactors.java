@@ -28,8 +28,8 @@ public class FindFactors {
 	}
 
 	public static void main(String[] args) {
-		int[] b = {0,0};
-		int[] result = findFactors(4, b);
+		int[] b = {0,3};
+		int[] result = findFactors(0, b);
 		System.out.println(result[0] + " " + result[1]);
 
 	}
