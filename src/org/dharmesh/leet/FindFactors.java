@@ -11,7 +11,7 @@ public class FindFactors {
 			Set<Integer> visitedNums = new HashSet<>();
 			for (int i = 0; i < b.length; i++) {
 				if (b[i] == 0 && n == 0) {
-					int j = i >0 ? i-1 : i + 1;
+					int j = i>0 ? i-1 : i + 1;
 					return new int[] { b[i], b[j] };
 				} else if (b[i] != 0) {
 					int a = n % b[i];
@@ -28,8 +28,8 @@ public class FindFactors {
 	}
 
 	public static void main(String[] args) {
-		int[] b = {0,3};
-		int[] result = findFactors(0, b);
+		int[] b = {0,3,1,4,6};
+		int[] result = findFactors(3, b);
 		System.out.println(result[0] + " " + result[1]);
 
 	}
